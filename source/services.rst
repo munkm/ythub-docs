@@ -11,8 +11,8 @@ files straight from your Terminal with curl.  It was initially developed by
 
 Basic usage::
 
-    curl -T filename http://use.yt/upload/   # uploads the file
-    curl -JO http://use.yt/upload/hash       # downloads the file
+    $ curl -T filename http://use.yt/upload/   # uploads the file
+    $ curl -JO http://use.yt/upload/hash       # downloads the file
 
 SAGE2
 -----
@@ -37,6 +37,20 @@ JupyterHub
 
 REST API
 --------
+
+MediaGoblin
+-----------
+`MediaGoblin <http://mediagoblin.org/>`_ is a free software media publishing
+platform. Its current usage within the Hub is limited to statically serving
+images that and be anonymously uploaded using curldrop. 
+
+Basic usage::
+
+   $ curl -T example.jpg https://images.hub.yt/uploads/
+   Open in your browser: https://images.hub.yt/u/fido/m/a7f673af-jpg/
+   Download: curl -JO https://images.hub.yt/upload/a7f673af
+   Delete: curl -X DELETE https://images.hub.yt/upload/f4a1993d
+
 
 DXL tools
 ---------
