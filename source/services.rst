@@ -42,6 +42,33 @@ server. We currently offer two instances of JupyterHub
  * public - `https://use.yt/ <https://use.yt>`_
  * DXL specific - `https://hub.yt/jupyter-dev/ <https://hub.yt/jupyter-dev/>`_
 
+Public JupyterHub
+^^^^^^^^^^^^^^^^^
+In order to access `https://use.yt/ <https://use.yt>`_ users are required to use
+their Bitbucket's credentials. Inside JupyterLab yt's introductory notebooks are
+provided, along with access to all example datasets that are available at
+`https://yt-project.org/data/ <https://yt-project.org/data/>`_. 
+
+.. warning::
+   There is no persistent storage available, i.e. all data is deleted after
+   JupyterLab is shut down. Make sure you download your notebooks before logging
+   out. 
+
+DXL JupyterHub
+^^^^^^^^^^^^^^
+JupyterLab can be accesed using NCSA credentials by all members of DXL group. 
+During login phase, the credentials are used to generate OTP token for OwnCloud, 
+which allows to mount user's OwnCloud directory as home directory making data in
+notebooks persistent. Docker images used in this instance of JupyterLab provide
+several ipython kernels via independent conda environments. Current setup
+offers:
+
+ * yt (stable release) using both python 3.5 and 2.7
+ * yt (current tip) using both python 3.5 and 2.7
+ * IJulia (with Iyt)
+
+OwnCloud
+--------
 
 REST API
 --------
