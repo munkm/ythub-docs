@@ -35,6 +35,14 @@ Please refer to `SAGE2 documentation
 JupyterHub
 ----------
 
+`JupyterHub <https://github.com/jupyter/jupyterhub>`_ is a multi-user server
+that manages and proxies multiple instances of the single-user JupyterLab
+server. We currently offer two instances of JupyterHub
+
+ * public - `https://use.yt/ <https://use.yt>`_
+ * DXL specific - `https://hub.yt/jupyter-dev/ <https://hub.yt/jupyter-dev/>`_
+
+
 REST API
 --------
 
