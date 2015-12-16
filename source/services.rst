@@ -70,6 +70,11 @@ offers:
 OwnCloud
 --------
 
+`OwnCloud <https://owncloud.org>`_ is free and open source software that
+operates as a Dropbox-like cloud storage system. The Hub's instance is provided
+at `https://hub.yt/owncloud/ <https://hub.yt/owncloud/>`_ and can be accessed
+using NCSA's LDAP credentials (DXL members)
+
 REST API
 --------
 
