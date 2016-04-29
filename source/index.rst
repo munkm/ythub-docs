@@ -23,6 +23,7 @@ Contents:
    :maxdepth: 2
 
    services
+   user_guide
    dev_guide
 
 Indices and tables

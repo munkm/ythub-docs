@@ -1,6 +1,22 @@
 Services
 ========
 
+Girder
+------
+
+`Girder <https://girder.readthedocs.org>`_ is a free and open source web-based
+data management platform developed by `Kitware <http://www.kitware.com/>`_ as
+part of the `Resonant <http://resonant.kitware.com/>`_ data and analytics
+ecosystem. We host our own instance of the Girder at `https://girder.hub.yt/
+<https://girder.hub.yt>`_. It offers additional features enabled via `ytHub
+plugin <https://github.com/data-exp-lab/girder_ythub>`_ which currently allows
+to:
+
+ * create persistent notebooks, which have direct access to the Girder's data
+ * manage running notebooks directly from the Girder's UI
+
+For some basic information about how to use Girder, see :doc:`Girder 101 </girder>`.
+
 curldrop
 --------
 
@@ -78,6 +94,8 @@ using NCSA's LDAP credentials (DXL members)
 REST API
 --------
 
+t.b.d.
+
 MediaGoblin
 -----------
 `MediaGoblin <http://mediagoblin.org/>`_ is a free software media publishing
@@ -94,6 +112,8 @@ Basic usage::
 
 DXL tools
 ---------
+
+t.b.d.
 
 Jenkins
 -------
