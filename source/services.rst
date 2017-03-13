@@ -27,8 +27,13 @@ files straight from your Terminal with curl.  It was initially developed by
 
 Basic usage::
 
-    $ curl -T filename http://use.yt/upload/   # uploads the file
+    $ curl -T filename http://use.yt/upload/   # uploads the file, trailing backslash is important
     $ curl -JO http://use.yt/upload/hash       # downloads the file
+
+Note that the trailing backslash at the end of the upload URL is necessary. If
+you do not include it, the file will be uploaded to the curldrop as a file named
+"upload". If you have done everything correctly, running the download command
+should download a file with the same filename as the one you uploaded.
 
 SAGE2
 -----
